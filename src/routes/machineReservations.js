@@ -44,21 +44,5 @@ module.exports = (db) => {
         });
     });
 
-    // Route to delete a machine reservation
-    router.delete('/:id', (req, res) => {
-        const { id } = req.params;
-        const deleteQuery = 'DELETE FROM machine_reservations WHERE id = ?';
-        db.query(deleteQuery, [id], (err, result) => {
-            if (err) {
-                console.error('Error deleting reservation:', err);
-                return res.status(500).json({ message: 'Error deleting reservation', error: err });
-            }
-            if (result.affectedRows === 0) {
-                return res.status(404).json({ message: 'Reservation not found' });
-            }
-            res.json({ message: 'Reservation deleted' });
-        });
-    });
-
     return router;
 };
