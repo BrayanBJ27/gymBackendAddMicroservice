@@ -1,4 +1,4 @@
-# Create Reservations Machine Service
+# Create Reservations Machine GYM Service
 
 This is the microservice for creating reservations machines in the GYM FITNESS BODY.
 
