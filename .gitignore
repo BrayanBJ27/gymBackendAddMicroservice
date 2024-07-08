@@ -1,5 +1,5 @@
-# Dependency directories
-node_modules/
+# Node.js dependencies
+/node_modules
 
-# dotenv environment variable files
-.env
+# npm debug files
+npm-debug.log*
