@@ -1,6 +1,6 @@
 # Create Reservations Machine GYM Service
 
-This is the microservice for creating reservations machines in the GYM FITNESS BODY.
+This is the microservice to create reservations for the GYM FITNESS BODY machines.
 
 ## Group Members
 
