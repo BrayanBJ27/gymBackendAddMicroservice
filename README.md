@@ -121,7 +121,7 @@ Example request body (JSON):
 ## Program Execution
 ### Create Docker Image with DockerFile
 ```sh
-docker build -t gymadd .
+docker build -t create-gym-services .
 ```
 ![Imagen de WhatsApp 2024-07-07 a las 22 24 35_601f96e7](https://github.com/BrayanBJ27/gymBackendAddMicroservice/assets/87538474/662c5d54-838a-43ae-b4a9-67e8a5131ae0)
 
