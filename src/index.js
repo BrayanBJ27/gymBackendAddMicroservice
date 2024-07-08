@@ -40,7 +40,7 @@ app.post('/reservations', (req, res) => {
 
 // Root route to check if the server is running
 app.get('/', (req, res) => {
-    res.send('Server Running');
+    res.send('Add Reservations Machines Server Running');
 });
 
 app.listen(port, () => {
