@@ -18,7 +18,7 @@ This is the microservice to create reservations for the GYM FITNESS BODY machine
    - [Evidence](#evidence-create)
 3. [Usage](#usage)
    - [Verify Server Functionality](#verify-server-functionality)
-   - [Add a New Product](#add-a-new-product)
+   - [Add a New Reserve](#add-a-new-reserve)
 4. [Program Execution](#program-execution)
    - [Create Docker Image](#create-docker-image)
 5. [DockerHub](#dockerhub)
@@ -127,9 +127,9 @@ docker build -t gymadd .
 
 ## DockerHub
 ### DockerHub Repository
-[brayanbj27/bj-gymadd](https://hub.docker.com/r/brayanbj27/bj-gymadd)
+[brayanbj27/bd-create-gym-services](https://hub.docker.com/r/brayanbj27/bd-create-gym-services)
 
 Docker Pull Command
 ```sh
-docker pull brayanbj27/bj-gymadd
+docker pull brayanbj27/bd-create-gym-services
 ```
