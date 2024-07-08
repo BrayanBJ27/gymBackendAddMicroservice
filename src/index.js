@@ -27,7 +27,7 @@ db.connect((err) => {
 // Route to add a new reserve
 app.post('/reservations', (req, res) => {
     const { machineName, userName, startTime, endTime } = req.body;
-    const insertQuery = 'INSERT INTO machine_reservations (machine_name, user_name, start_time, end_time) VALUES (?, ?, ?, ?)';
+    const query = 'INSERT INTO machine_reservations (machine_name, user_name, start_time, end_time) VALUES (?, ?, ?, ?)';
     db.query(query, [machineName, userName, startTime, endTime], (err, result) => {
         if (err) {
             console.error('Error adding reservation:', err);
