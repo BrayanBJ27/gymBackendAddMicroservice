@@ -2,7 +2,7 @@ const express = require('express');
 const mysql = require('mysql2');
 const cors = require('cors');
 const app = express();
-const port = process.env.PORT || 8088;
+const port = 8088;
 
 // Middleware
 app.use(cors());
@@ -10,10 +10,10 @@ app.use(express.json());
 
 // Configure the database connection
 const db = mysql.createConnection({
-    host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME
+    host: 'mysql-programaciondis.alwaysdata.net',
+    user: '357676_bj',
+    password: 'Uyt:tBHLgt4Kk_E',
+    database: 'programaciondis_gym'
 });
 
 db.connect((err) => {
